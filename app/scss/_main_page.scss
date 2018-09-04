@@ -57,13 +57,13 @@ select{
       height: 33px;
       line-height: 30px;
       font-size: 14px;
-
+      text-align: center;
       font-weight: bold  ;
 
       text-transform: uppercase;
 
       font-family: $f_proxima;
-      letter-spacing: 2px;
+      letter-spacing: 2.8px;
     }
   }
   .jq-selectbox__trigger-arrow {
@@ -211,4 +211,153 @@ ul.social_link{
     color: #000;
   }
 
+}
+
+.main_inform{
+  padding: 50px 0;
+  width: 100%;
+  background-image: url("../img/new_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  h2{
+    text-align: left;
+    font-size: 36px;
+    margin: 0;
+
+  }
+  .button{
+    width: 120px;
+    min-width: 120px;
+    margin: 20px 0 0;
+    height: 33px;
+    font-size: 13px;
+  }
+}
+.main_news{
+  li{
+    margin-bottom: 10px;
+    a{
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      color: #000;
+    }
+    p{
+      margin: 0;
+      font-size: 14px;
+      line-height: 20px;
+
+    }
+    span{
+      display: block;
+      color: #999999;
+
+      font-size: 13px;
+    }
+  }
+}
+
+.about_platform{
+  padding-right: 50px;
+  p{
+    color: #000000;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+}
+
+.counter_wr{
+  display: flex;
+  .counter{
+    color: #000000;
+    font-family:$f_kepler;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+
+
+  }
+  span{
+    color: #000000;
+    font-family:$f_kepler;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-left: 8px;
+    position: relative;
+    top: -4px;
+    line-height: 36px;
+  }
+
+}
+.site_counter{
+  margin-top: 62px;
+  flex-direction: column;
+  display: flex;
+  p{
+    font-size: 14px;
+    font-family:$f_kepler;
+    text-transform: uppercase;
+    display: block;
+    margin: 0;
+    line-height: 1;
+  }
+  li{
+    margin-bottom: 25px;
+  }
+}
+
+.main_mergers_item{
+  display: flex;
+  flex-direction: column;
+  .main_about_item_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 130px;
+    img{
+      width: 80px;
+    }
+  }
+  .main_about_item_name{
+    font-family: "Kepler";
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    line-height: 23px;
+    margin-bottom: 10px;
+    padding: 0 25px;
+
+  }
+  p{
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    min-height: 100px;
+
+  }
+}
+
+.main_mergers_item_wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.main_mergers{
+  padding: 50px;
+  .button{
+    max-width: 180px;
+    text-align: center;
+    font-size: 14px;
+
+    line-height: 15px;
+    text-transform: uppercase;
+
+    letter-spacing: 1.4px;
+  }
 }
