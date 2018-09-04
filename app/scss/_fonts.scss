@@ -1,0 +1,43 @@
+@import "_mixins/font-face";
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/ProximaNova-Light.woff") format("woff"),
+  url("../fonts/ProximaNova-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family:'ProximaNova';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+  url('../fonts/ProximaNova-Regular.woff') format('woff'),
+  url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+  url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-00FE;
+}
+ @font-face {
+     font-family: "ProximaNova";
+     src: url("../fonts/ProximaNova-Bold.eot");
+     src: url("../fonts/ProximaNova-Bold.eot?#iefix")format("embedded-opentype"),
+     url("../fonts/ProximaNova-Bold.woff") format("woff"),
+     url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+     font-weight: 700;
+     font-style: normal;
+ }
+
+@font-face {
+  font-family: 'Kepler';
+  src: url("../fonts/KeplerStd-BoldScnDisp.eot");
+  src: url("../fonts/KeplerStd-BoldScnDisp.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/KeplerStd-BoldScnDisp.woff") format("woff"),
+  url("../fonts/KeplerStd-BoldScnDisp.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

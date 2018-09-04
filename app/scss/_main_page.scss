@@ -1,0 +1,84 @@
+.main_screen{
+  width: 100%;
+  min-height: 500px;
+  background-color: #fff;
+  background-image: url("../img/tint.png");
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  .main_screen_text{
+    width: 100%;
+    max-width: 615px;
+    h1{
+      font-size: 60px;
+      color: #000;
+      line-height: 60px;
+    }
+    p{
+      font-size: 32px;
+      line-height: 40px;
+      font-family: $f_kepler;
+      color: #000;
+    }
+  }
+}
+
+
+
+footer{
+  padding: 55px 0;
+  background-color: #fff;
+  border-top: 1px solid $main_color;
+  .footer_information{
+    text-align: center;
+    span{
+      color: #a8a8a8;
+
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+  }
+}
+ul.social_link{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  li{
+    margin-right: 25px;
+    &:last-child{
+      margin-right: 0;
+    }
+    a{
+      color: #c1c1c1;
+      font-size: 27px;
+      &:hover{
+        color: $main_color;
+      }
+    }
+  }
+}
+
+.button{
+  width: 193px;
+  height: 60px;
+  background-color: #fb9332;
+  display: flex;
+  margin: 20px auto 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #fff;
+  &:hover{
+    background-color: #ffb83d;
+  }
+}
