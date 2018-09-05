@@ -27,14 +27,14 @@ body {
 
 }
 
-a , button{
+a, button {
   text-decoration: none;
   transition: all 0.3s ease;
-  outline: none!important;
+  outline: none !important;
 
 }
 
-input{
+input {
   &[type="email"], &[type="number"], &[type="search"], &[type="text"], &[type="tel"], &[type="url"], &[type="password"] {
     border: none !important;
     outline: none;
@@ -59,11 +59,12 @@ input{
     border-color: green;
   }
 }
-textarea{
+
+textarea {
   height: 140px;
   line-height: 20px;
-  padding:  15px 20px ;
-  border: none!important;
+  padding: 15px 20px;
+  border: none !important;
   outline: none;
   color: #333;
   background-color: #eeeeee;
@@ -81,6 +82,7 @@ textarea{
     border-color: green;
   }
 }
+
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -90,19 +92,22 @@ textarea{
 .text-center {
   text-align: center;
 }
-ul{
+
+ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  li{
+  li {
     list-style: none;
   }
 }
-h1, h2 , h3 , h4{
+
+h1, h2, h3, h4 {
   font-family: $f_kepler;
 
 }
-.section_title{
+
+.section_title {
   color: #000000;
   text-align: center;
   font-size: 40px;
@@ -112,7 +117,7 @@ h1, h2 , h3 , h4{
   position: relative;
 
   width: 100%;
-  &:before{
+  &:before {
     content: "";
     width: 200px;
     height: 2px;
@@ -124,54 +129,62 @@ h1, h2 , h3 , h4{
   }
 }
 
-.highcharts-data-labels.highcharts-series-0{
+.highcharts-data-labels.highcharts-series-0 {
   z-index: 1;
 }
+
 .highcharts-tooltip {
   stroke: #cac096;
-  z-index:9999!important;
+  z-index: 9999 !important;
   fill: #fff;
+  position: absolute;
+  pointer-events: none;
+  white-space: inherit !important;
+  width: 100px !important;
+
 }
+
 .highcharts-tooltip span {
   stroke: #cac096;
-  background-color:#ffF;
-
-
-
+  background-color: #ffF;
+  padding: 10px !important;
 }
-.highcharts-background{
+
+.highcharts-background {
   fill: transparent;
 }
-.highcharts-exporting-group, .highcharts-credits{
+
+.highcharts-exporting-group, .highcharts-credits {
   display: none;
 }
 
-.highcharts-label.highcharts-data-label{
-  z-index: -1!important;
-  span{
+.highcharts-label.highcharts-data-label {
+  z-index: -1 !important;
+  span {
 
-    color: #000000!important;
-    font-family: "Open Sans"!important;
-    font-size: 13px!important;
+    color: #000000 !important;
+    font-family: "Open Sans" !important;
+    font-size: 13px !important;
 
-    white-space: inherit!important;
-    width: 100px !important;
+    white-space: inherit !important;
+    width: 110px !important;
 
-    text-overflow: inherit!important;
-    overflow: visible!important;
+    text-overflow: inherit !important;
+    overflow: visible !important;
 
   }
-  b{
-    font-size: 16px!important;
+  b {
+    font-size: 16px !important;
   }
-  small{
+  small {
     font-size: 12px !important;
-    font-weight: normal!important;
+    font-weight: normal !important;
   }
 
 }
-.highcharts-container{
-  overflow: visible!important;
+
+.highcharts-container {
+  overflow: visible !important;
 }
 
 @import "media"; // Always at the end
