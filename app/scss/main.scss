@@ -2,7 +2,7 @@
 @import "libs";
 @import "fonts";
 @import "main_page";
-
+@import "all_page";
 ::placeholder {
   color: #666;
 }
@@ -190,6 +190,44 @@ h1, h2, h3, h4 {
 .main_chart_item{
   max-width: 90%;
   margin: 0 auto;
+}
+
+.all_pages{
+  position: fixed;
+  top: 20%;
+  right: 0;
+  z-index: 101;
+  &.open{
+    ul{
+      right: 0;
+    }
+  }
+  .page_point{
+    width: 40px;
+    height: 15px;
+    background-color: #48bcff;
+    cursor: pointer;
+  }
+  ul{
+    background-color: #48bcff;
+    padding: 15px 20px;
+    position: absolute;
+    top: 100%;
+    width: 250px;
+    right: -250px;
+    transition: .4s;
+    max-height: 450px;
+    overflow-y: auto;
+    li{
+      list-style: none;
+      margin-bottom: 5px;
+      font-size: 17px;
+
+      a{
+        color: #fff;
+      }
+    }
+  }
 }
 
 @import "media"; // Always at the end

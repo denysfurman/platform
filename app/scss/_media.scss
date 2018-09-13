@@ -11,6 +11,16 @@
     background-color: white;
 
   }
+  .buy_side_item .buy_side_item_inform {
+
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .buy_side_item.reverse .buy_side_item_inform {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -90,13 +100,24 @@
     background-color: white;
 
   }
+  .main_chart_item {
+    max-width: 100% !important;
+    height: 300px!important;
+  }
+  .highcharts-container{
+    height: 300px!important;
+  }
   .site_counter {
     margin-top: 62px;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-    justify-content: space-between;
+    justify-content: flex-start;
+    li{
+      width: 50%;
+    }
   }
   .highcharts-label.highcharts-data-label small{
     display: none;
@@ -111,9 +132,7 @@
 
     overflow: visible!important;
   }
-  .main_news{
-    margin-bottom: 40px;
-  }
+
   .main_mergers_item p {
     margin: 0;
     font-size: 15px;
@@ -136,5 +155,64 @@
     background-repeat: no-repeat;
     padding-top: 35px;
   }
+  .about_platform {
+    padding-right: 0;
+    margin-top: 35px;
+  }
+  ul.social_link{
+    margin-bottom: 0;
 
+  }
+  .footer_bottom_line{
+    margin-top: 30px;
+  }
+  .footer_menu{
+    margin-bottom: 20px;
+  }
+  .footer_bottom_line ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 12px;
+  }
+  .buy_side_item,.buy_side_item.reverse {
+
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .buy_side_item .buy_side_item_img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .buy_side_item .buy_side_item_inform {
+    text-align: center!important;
+    width: 100%;
+
+  }
+}
+@media only screen and (max-width: 350px) {
+
+  .main_chart_item {
+    max-width: 100% !important;
+
+
+  }
+  .highcharts-data-label-connector{
+    display: none;
+  }
+  .highcharts-label.highcharts-data-label b{
+    display: none;
+  }
+  .main_chart_item {
+    max-width: 100% !important;
+    height: 230px!important;
+  }
+  .highcharts-container{
+    height: 230px!important;
+  }
 }

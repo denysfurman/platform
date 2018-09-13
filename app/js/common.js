@@ -5,27 +5,32 @@ $(function () {
         selectSearch: true
     });
 
+    //all page
+    $('.all_pages').click(function () {
+        $('.all_pages').toggleClass('open');
+    });
+
     //counter
-    $('.counter').each(function() {
+    $('.counter').each(function () {
         var $this = $(this),
             countTo = $this.attr('data-count');
 
-        $('.counter').each(function() {
+        $('.counter').each(function () {
             var $this = $(this),
                 countTo = $this.attr('data-count');
 
-            $({ countNum: $this.text()}).animate({
+            $({countNum: $this.text()}).animate({
                     countNum: countTo
                 },
 
                 {
 
                     duration: 3000,
-                    easing:'linear',
-                    step: function() {
+                    easing: 'linear',
+                    step: function () {
                         $this.text(Math.floor(this.countNum));
                     },
-                    complete: function() {
+                    complete: function () {
                         $this.text(this.countNum);
                         //alert('finished');
                     }
@@ -35,24 +40,20 @@ $(function () {
     });
 
 
-
-
 });
-$(function() {
+$(function () {
 
     Highcharts.theme = {
         colors: ['#cac096', '#dbd4b8', '#ece8da', '#8eb03b', '#a2c038', '#b8d434'],
-        chart: {
-        }
+        chart: {}
     };
     // Apply the theme
     Highcharts.setOptions(Highcharts.theme);
 
 
-
 });
 
-$(function() {
+$(function () {
     // Create the chart
     chart = new Highcharts.Chart({
         chart: {
@@ -77,14 +78,14 @@ $(function() {
         },
         tooltip: {
             useHTML: true,
-            borderWidth:0,
-            borderRadius:0,
+            borderWidth: 0,
+            borderRadius: 0,
             shadow: false,
             padding: 0,
 
             backgroundColor: "rgba(255,255,255,1)",
 
-            pointFormat:'<b>{point.percentage:.1f}%</b>'
+            pointFormat: '<b>{point.percentage:.1f}%</b>'
         },
         series: [{
             name: 'Browsers',
@@ -118,7 +119,7 @@ $(function() {
 });
 
 
-$(function() {
+$(function () {
     // Create the chart
     chart = new Highcharts.Chart({
         chart: {
@@ -143,15 +144,15 @@ $(function() {
         },
         tooltip: {
             useHTML: true,
-            borderWidth:0,
-            borderRadius:0,
+            borderWidth: 0,
+            borderRadius: 0,
             shadow: false,
             padding: 0,
 
 
             backgroundColor: "rgba(255,255,255,1)",
 
-            pointFormat:'<b>{point.percentage:.1f}%</b>'
+            pointFormat: '<b>{point.percentage:.1f}%</b>'
         },
         series: [{
             name: 'Browsers',
@@ -181,7 +182,7 @@ $(function() {
     });
 });
 
-$(function() {
+$(function () {
     // Create the chart
     chart = new Highcharts.Chart({
         chart: {
@@ -206,17 +207,17 @@ $(function() {
         },
         tooltip: {
             useHTML: true,
-            borderWidth:0,
-            borderRadius:0,
+            borderWidth: 0,
+            borderRadius: 0,
             shadow: false,
             padding: 0,
 
 
             backgroundColor: "rgba(255,255,255,1)",
 
-            pointFormat:'<b>{point.percentage:.1f}%</b>'
+            pointFormat: '<b>{point.percentage:.1f}%</b>'
         },
-        
+
         series: [{
             name: 'Browsers',
             data: [

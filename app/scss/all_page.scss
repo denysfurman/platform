@@ -1,0 +1,42 @@
+@import "vars";
+.page_content{
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.buy_side_item{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  &.reverse{
+    flex-direction: row-reverse;
+    .buy_side_item_inform {
+      text-align: right;
+      padding-left: 220px;
+      padding-right: 0;
+    }
+  }
+  .buy_side_item_img{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    img{
+      width: 64px;
+      height: auto;
+    }
+  }
+  .buy_side_item_inform{
+    width: calc(100% - 220px);
+    padding-right: 220px;
+    padding-left: 0;
+    span{
+      font-family: $f_kepler;
+      font-size: 30px;
+    }
+    p{
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+}
