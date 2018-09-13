@@ -84,9 +84,7 @@ $(function() {
 
             backgroundColor: "rgba(255,255,255,1)",
 
-            formatter: function() {
-                return  this.y + "<br/>" + this.point.name;
-            }
+            pointFormat:'<b>{point.percentage:.1f}%</b>'
         },
         series: [{
             name: 'Browsers',
@@ -106,7 +104,7 @@ $(function() {
             showInLegend: false,
 
             dataLabels: {
-                enabled: true,
+
                 useHTML: true,
 
                 format: '<b>{point.y}</b><br/><small>{point.name}</small>',
@@ -153,9 +151,7 @@ $(function() {
 
             backgroundColor: "rgba(255,255,255,1)",
 
-            formatter: function() {
-                return  this.y + "<br/>" + this.point.name;
-            }
+            pointFormat:'<b>{point.percentage:.1f}%</b>'
         },
         series: [{
             name: 'Browsers',
@@ -218,10 +214,9 @@ $(function() {
 
             backgroundColor: "rgba(255,255,255,1)",
 
-            formatter: function() {
-                return  "$" + this.y + "<br/>" + this.point.name;
-            }
+            pointFormat:'<b>{point.percentage:.1f}%</b>'
         },
+        
         series: [{
             name: 'Browsers',
             data: [

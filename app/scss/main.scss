@@ -144,10 +144,11 @@ h1, h2, h3, h4 {
 
 }
 
-.highcharts-tooltip span {
+.highcharts-tooltip > span {
   stroke: #cac096;
   background-color: #ffF;
   padding: 10px !important;
+  font-size: 18px!important;
 }
 
 .highcharts-background {
@@ -185,6 +186,10 @@ h1, h2, h3, h4 {
 
 .highcharts-container {
   overflow: visible !important;
+}
+.main_chart_item{
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 @import "media"; // Always at the end

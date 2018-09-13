@@ -4,13 +4,137 @@
 @media only screen and (max-width: 1900px) {
 }
 @media only screen and (max-width: 1200px) {
+  .main_mergers_item_wrap {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 15px;
+    background-color: white;
 
+  }
 }
 
 @media only screen and (max-width: 992px) {
+  .site_counter {
+    margin-top: 62px;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+  }
+  .logo_footer{
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+  .footer_bottom_line{
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .header_topline{
+    flex-direction: column;
+  }
+  .highcharts-label.highcharts-data-label span{
+    position: relative!important;
+  }
+  //.highcharts-label.highcharts-data-label{
+  //  display: none;
+  //}
+  //.highcharts-data-label-connector{
+  //  display: none!important;
+  //}
+  .highcharts-background{
+    width: 100% !important;
+  }
+  .header_language_form {
+    width: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: -22px auto 45px;
+  }
+  .main_screen .main_screen_text h1 {
+    font-size: 40px;
+    line-height: 44px;
+
+  }
+  .main_screen .main_screen_text p {
+    font-size: 25px;
+    line-height: 32px;
+    font-family: Kepler;
+    color: #000;
+  }
+  .main_screen {
+    width: 100%;
+    min-height: 200px;
+    padding-bottom: 20px;
+  }
+  .section_title {
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 26px;
+  }
+  .container {
+    max-width: 100%;
+  }
+
 
 }
 
 @media only screen and (max-width: 767px) {
+  .main_mergers_item_wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    background-color: white;
+
+  }
+  .site_counter {
+    margin-top: 62px;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    justify-content: space-between;
+  }
+  .highcharts-label.highcharts-data-label small{
+    display: none;
+  }
+
+  .highcharts-label.highcharts-data-label b {
+    font-size: 12px!important;
+  }
+  .highcharts-label.highcharts-data-label span {
+
+    width: 61px!important;
+
+    overflow: visible!important;
+  }
+  .main_news{
+    margin-bottom: 40px;
+  }
+  .main_mergers_item p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    min-height: inherit;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .main_about_item p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    min-height: inherit;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .main_screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 35px;
+  }
 
 }
