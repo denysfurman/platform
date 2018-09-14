@@ -40,3 +40,158 @@
     }
   }
 }
+ //------------------- registration
+
+.registration_form{
+  margin-top: 40px;
+}
+.form_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+
+  margin-bottom: 20px;
+  .jq-selectbox{
+    width: calc(100% - 130px);
+  }
+  input{
+    width: calc(100% - 130px);
+  }
+  label{
+    width: 130px;
+    padding-right: 30px;
+    color: #000000;
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 18px;
+    span{
+      color: #c80000;
+    }
+  }
+  input{
+    margin: 0;
+  }
+}
+
+.form_item_checked{
+  margin-bottom: 20px;
+  padding-left: 130px;
+  font-size: 15px;
+  display: block;
+  a{
+    color: #999999;
+  }
+  .jq-checkbox {
+    top: -1px;
+    vertical-align: middle;
+    width: 23px;
+    height: 23px;
+    margin: 0 10px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    background: #fff;
+    cursor: pointer;
+  }
+  .jq-checkbox.checked .jq-checkbox__div {
+    width: 23px;
+    height: 23px;
+    background-size: 14px
+  }
+}
+form{
+  width: 100%;
+  .form_title{
+    color: #000000;
+    font-family: $f_kepler;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+  }
+  .button{
+
+    min-width: 223px;
+    min-height: 53px;
+    border: 2px solid #dbd4b8;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    &:hover{
+      background-color: #dbd4b8;
+      //color: #fff;
+    }
+
+  }
+
+}
+
+.jq-selectbox__select {
+
+  padding: 0 30px 0 20px;
+  color: #000;
+  height: 43px;
+  border: 1px solid #ccc;
+  background-color: #FFF;
+  border-radius: 0;
+  .jq-selectbox__select-text {
+
+    display: block;
+    overflow: hidden;
+    width: 100%!important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 43px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: left;
+
+    letter-spacing: 0.6px;
+  }
+}
+.jq-selectbox__trigger-arrow {
+
+  top: 13px;
+  background-image: url(../img/down-arrow.svg);
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  z-index: 10;
+  right: 7px;
+  background-size: 12px;
+  background-repeat: no-repeat;
+}
+
+.partnership_inform{
+  width: 100%;
+  background-color: rgba(219, 212, 184, 0.21);
+  padding: 60px 0 80px;
+  text-align: center;
+  h2{
+    font-family: $f_kepler;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+  }
+  p{
+    margin-bottom: 30px;
+  }
+  .button{
+    max-width: 400px;
+    margin-top: 20px;
+  }
+}

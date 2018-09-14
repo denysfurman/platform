@@ -194,6 +194,27 @@
     width: 100%;
 
   }
+  .form_item{
+    flex-direction: column;
+  }
+  .form_item label {
+    width: 100%;
+    padding-right: 0;
+    color: #000;
+    margin: 0;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 14px;
+  }
+  .form_item input {
+
+    width: 100%;
+  }
+  .form_item_checked {
+    margin-bottom: 30px;
+    padding-left: 0;
+    font-size: 15px;
+  }
 }
 @media only screen and (max-width: 350px) {
 

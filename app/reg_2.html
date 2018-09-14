@@ -71,53 +71,90 @@
 
 <div class="page_content">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-8">
-                <form action="#" class="registration_form ">
+
+        <form action="#" class="registration_form ">
+            <div class="row justify-content-between">
+                <div class="col-xl-6 col-lg-6">
+                    <span class="form_title">
+                        Personal contact details
+                    </span>
                     <div class="form_item">
                         <label>
-                            First name <span>*</span>
+                            Job title
                         </label>
                         <input type="text">
                     </div>
 
                     <div class="form_item">
                         <label>
-                            Last name <span>*</span>
+                            Phone <span>*</span>
                         </label>
                         <input type="text">
                     </div>
                     <div class="form_item">
                         <label>
-                            Email
-                            Address<span>*</span>
+                            Mobile
                         </label>
-                        <input type="email">
+                        <input type="text">
                     </div>
+                    <br>
+                    <span class="form_title">
+                        Membership
+                    </span>
                     <div class="form_item">
                         <label>
-                            Password <span>*</span>
+                            Member
+                            group <span>*</span>
                         </label>
-                        <input type="password">
+                        <select class="form_style">
+                            <option value="">Please select</option>
+                            <option value="">Select 1</option>
+                        </select>
                     </div>
+                </div>
+
+                <div class="col-xl-5 col-lg-6">
+                    <span class="form_title">
+                        Company contact details
+                    </span>
                     <div class="form_item">
                         <label>
-                            Confirm
-                            password <span>*</span>
+                            Company <span>*</span>
                         </label>
-                        <input type="password">
-                    </div>
-                    <div class="form_item_checked">
-                        <label for="reg_check_1"><input type="checkbox" class="form_style" id="reg_check_1" name="reg_check_1"> I have read and accept
-                            <a href="#">Terms & Conditions</a> </label>
+                        <input type="text">
                     </div>
 
-                    <button class="button">
-                        register
-                    </button>
-                </form>
+                    <div class="form_item">
+                        <label>
+                            City <span>*</span>
+                        </label>
+                        <input type="text">
+                    </div>
+
+
+                    <div class="form_item">
+                        <label>
+                            Country <span>*</span>
+                        </label>
+                        <select class="form_style">
+                            <option value="">Please select</option>
+                            <option value="">Select 1</option>
+                        </select>
+                    </div>
+                    <div class="form_item">
+                        <label>
+                            Website <span>*</span>
+                        </label>
+                        <input type="text">
+                    </div>
+                </div>
+
+
             </div>
-        </div>
+            <button class="button">
+                submit
+            </button>
+        </form>
 
     </div>
 </div>
