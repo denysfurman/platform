@@ -1,0 +1,55 @@
+@import "vars";
+
+
+@media only screen and (max-width: 1900px) {
+}
+
+//----------------
+@media only screen and (max-width: 1200px) {
+  .menu-link{
+    display: inline-block;
+  }
+  .user_header_wrap .user_header_nav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px 20px;
+    top: 80px;
+    background-color: #dfd9c0;
+    z-index: 2;
+
+    display: none;
+    ul{
+      justify-content: center!important;
+      flex-wrap: wrap;
+      li{
+        margin: 10px;
+      }
+    }
+
+
+
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 767px) {
+
+  .advisor_item_img{
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .advisor_item .advisor_item_img img{
+    max-width: 100%;
+    width: auto;
+  }
+  .advisor_item_inform .wrap{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 350px) {
+}

@@ -3,6 +3,8 @@
 @import "fonts";
 @import "main_page";
 @import "all_page";
+@import "users_page";
+@import "header";
 ::placeholder {
   color: #666;
 }
@@ -227,3 +229,4 @@ h1, h2, h3, h4 {
 
 
 @import "media"; // Always at the end
+@import "media_users"; // Always at the end

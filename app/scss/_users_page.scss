@@ -1,0 +1,83 @@
+@import "vars";
+.users_page{
+  margin-bottom: 70px;
+  h1{
+    color: #000000;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+  }
+}
+
+.advisor_item{
+  width: 100%;
+  margin-bottom: 30px;
+  .advisor_item_img{
+    img{
+      width: 100%;
+      object-fit: cover;
+      height: auto;
+    }
+  }
+}
+
+.advisor_item_inform{
+  span.title{
+    display: block;
+    font-family: $f_kepler;
+    font-size: 30px;
+    line-height: 31px;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    i{
+      font-style: normal;
+      color: #cccccc;
+    }
+
+  }
+  .wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    p{
+      span{
+        display: block;
+      }
+    }
+
+  }
+}
+.advisor_links{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  
+  li{
+    margin-right: 5px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+    a{
+      border: 2px solid #dbd4b8;
+      font-size: 15px;
+      color: #000;
+      padding: 2px 5px;
+      &:hover{
+        color: #dbd4b8;
+      }
+    }
+  }
+}
+
+.button.load{
+  width: 182px;
+}
+
+
