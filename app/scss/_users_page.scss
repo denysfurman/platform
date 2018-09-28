@@ -79,5 +79,114 @@
 .button.load{
   width: 182px;
 }
+.find_form{
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: flex-end;
+  .find_form_item{
+    margin-right: 15px;
+    input{
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      font-size: 14px;
+      padding-left: 0;
+      color: #666;
+      min-width: 90px;
+
+    }
+    .jq-selectbox__select {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      font-size: 14px;
+      padding: 0 10px 0 0;
+      color: #666;
+    }
+    .jq-selectbox {
+
+      min-width: 145px;
+    }
+    .jq-selectbox__trigger-arrow {
+      top: 18px;
+      position: absolute;
+      width: 13px;
+      height: 12px;
+      right: 0px;
+      background-size: 9px;
+    }
+  }
+  label{
+    width: 100%;
+  }
 
 
+
+}
+
+.find_form_buttons{
+  display: flex;
+  .button{
+    min-width: 83px;
+    min-height: 43px;
+    margin: 0;
+    margin-right: 5px;
+    font-size: 14px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+    &.grey{
+      border: 2px solid #dddddd;
+      &:hover{
+        background-color: #ccc;
+      }
+    }
+  }
+}
+
+.listings_item{
+  width: 100%;
+  margin-bottom: 30px;
+  .listings_item_img{
+    img{
+      width: 100%;
+      object-fit: cover;
+      height: auto;
+    }
+
+  }
+  .button{
+    width: 100%;
+    min-width: inherit;
+    font-size: 16px;
+    height: 43px;
+  }
+
+}
+.listings_item_inform{
+  h3{
+    font-size: 30px;
+    line-height: 33px;
+    margin-bottom: 5px;
+  }
+  span{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    &.grey{
+      color: #999;
+      a{
+        color: #999;
+        text-decoration: underline;
+        font-weight: 400;
+      }
+    }
+  }
+  p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 20px;
+  }
+}

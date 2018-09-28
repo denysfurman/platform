@@ -15,7 +15,7 @@
     right: 0;
     width: 100%;
     padding: 10px 20px;
-    top: 80px;
+    top: 75px;
     background-color: #dfd9c0;
     z-index: 2;
 
@@ -27,14 +27,42 @@
         margin: 10px;
       }
     }
-
-
-
   }
+  .find_form {
+
+    flex-wrap: wrap;
+  }
+  .find_form .find_form_item{
+    margin-bottom: 20px;
+  }
+  .find_form_buttons .button {
+    padding: 0;
+    height: 44px;
+  }
+
 }
 
 
 @media only screen and (max-width: 992px) {
+  .listings_item .listings_item_img{
+    margin-bottom: 30px;
+  }
+  .listings_item .listings_item_img img{
+    max-width: 100%;
+    width: auto;
+  }
+  .listings_item_inform h3 {
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 5px;
+  }
+  .find_form_item{
+    width: calc(50% - 20px);
+  }
+  .user_header_wrap .user_header_nav{
+    z-index: 1001;
+    top: 75px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -50,6 +78,11 @@
   .advisor_item_inform .wrap{
     flex-direction: column;
   }
+
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 480px) {
+  .find_form_item{
+    width: 100%;
+    margin-right: 0;
+  }
 }
