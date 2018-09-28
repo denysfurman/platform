@@ -10,7 +10,18 @@
     line-height: 50px;
   }
 }
+.users_page .users_page_title {
+  color: #000;
 
+  margin-bottom: 40px;
+  margin-top: -15px;
+  font-size: 30px;
+  font-weight: 400;
+  display: block;
+  line-height: 35px;
+  font-family: Kepler;
+
+}
 .advisor_item{
   width: 100%;
   margin-bottom: 30px;
@@ -188,5 +199,22 @@
     font-size: 14px;
     margin-bottom: 10px;
     line-height: 20px;
+  }
+}
+
+.contact_user_form{
+  margin-top: 30px;
+  .button {
+    min-width: 250px;
+    margin: 20px 0 0;
+  }
+}
+
+.capcha_form{
+  margin-top: 7px;
+  margin-bottom: 50px;
+  .button {
+    min-width: 250px;
+    margin: 20px 0 0;
   }
 }

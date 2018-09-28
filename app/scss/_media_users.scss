@@ -78,7 +78,12 @@
   .advisor_item_inform .wrap{
     flex-direction: column;
   }
-
+  .form_item textarea{
+    width: 100%;
+  }
+  .form_item .jq-selectbox{
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 480px) {
   .find_form_item{
