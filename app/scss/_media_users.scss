@@ -63,6 +63,14 @@
     z-index: 1001;
     top: 75px;
   }
+  .table_wr{
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    table{
+      width: 800px;
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -98,6 +106,21 @@
     font-size: 30px;
 
     line-height: 33px;
+  }
+  .cart_total_button{
+    flex-direction: column;
+    .button{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+  }
+
+  .pay_label ul {
+    display: inline-block;
+    float: right;
+    width: 100%;
+    margin-top: 20px;
   }
 }
 @media only screen and (max-width: 480px) {
