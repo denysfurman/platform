@@ -84,6 +84,21 @@
   .form_item .jq-selectbox{
     width: 100%;
   }
+  .edit_profile_img img {
+    max-width: inherit;
+    width: auto;
+  }
+  .tabs a {
+
+    padding: 0 9px;
+  }
+  .users_page h1 {
+
+    margin-bottom: 20px;
+    font-size: 30px;
+
+    line-height: 33px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .find_form_item{

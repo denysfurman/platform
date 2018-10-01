@@ -227,6 +227,35 @@ h1, h2, h3, h4 {
 }
 
 
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 300px;
+  width: 100%;
+  border: none;
+
+}
+
+table tr th,
+table tr td {
+  font-size: 14px;
+  padding:10px 15px;
+}
+table tr th:first-child,
+table tr td:first-child {
+
+}
+table tr th {
+  background-color: #dbd4b8;
+
+  text-align: left;
+}
+
+table tr:nth-child(odd){
+  background-color: #f8f6f1;
+}
+
+
 
 @import "media"; // Always at the end
 @import "media_users"; // Always at the end
